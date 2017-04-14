@@ -6,5 +6,7 @@ module JobsHelper
     else
       "(Public)"
     end
-    
+
+end
+
 end
