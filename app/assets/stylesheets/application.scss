@@ -23,7 +23,7 @@
  .navbar-default {
      background-color: #263238;   //背景颜色，  #212121 -纯黑
      border-color: #263238;       //边框颜色
-     margin-bottom: 0;           //底部 margin 不撑开距离
+    //  margin-bottom: 0;           //底部 margin 不撑开距离
      border-radius: 0;           //圆角为0
  }
 
@@ -71,6 +71,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       margin-bottom: 50px;
+      margin-top: -20px;
 
       .box-inner {
           background-color: rgba(250, 250, 250, 0.69);
@@ -137,6 +138,13 @@
   footer .footer-below {
       padding: 25px 0;
       background-color: #233140;
+  }
+
+
+  //------common----
+  .col-centered{
+    float: none;
+    margin: 0 auto;
   }
 
 //---------------table----------
